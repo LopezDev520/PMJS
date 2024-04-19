@@ -5,6 +5,8 @@ import os
 user = os.environ.get("USER")
 DB_PATH = Path(f"/home/{user}/.config/PMJS/projects.db")
 
+## new change!
+
 def initDB():
   conn = sqlite3.connect(DB_PATH)
 
